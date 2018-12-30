@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.SplitPane?>
+
+<SplitPane dividerPositions="0.5, 0.5, 0.5, 0.5, 0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="160.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <items>
+      <Label fx:id="question" text="Label" />
+      <ScrollBar fx:id="sliderq" max="9.0" />
+      <ScrollBar fx:id="sliderw" max="9.0" />
+      <ScrollBar fx:id="slidere" max="9.0" />
+      <ScrollBar fx:id="sliderr" max="9.0" />
+      <SplitPane dividerPositions="0.05518394648829431, 0.15384615384615385" prefHeight="160.0" prefWidth="200.0">
+         <items>
+            <Label fx:id="answer" text="Label" />
+            <Button fx:id="next" alignment="BOTTOM_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" text="&gt;&gt;" />
+            <Button fx:id="ok" mnemonicParsing="false"  text="Oк"/>
+         </items>
+      </SplitPane>
+   </items>
+</SplitPane>
